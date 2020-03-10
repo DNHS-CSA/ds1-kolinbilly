@@ -15,7 +15,8 @@
 		8213E18E2416966D00E44469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8213E18C2416966D00E44469 /* LaunchScreen.storyboard */; };
 		8213E1992416966F00E44469 /* SwiftPortfolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213E1982416966F00E44469 /* SwiftPortfolioTests.swift */; };
 		8213E1A42416967000E44469 /* SwiftPortfolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213E1A32416967000E44469 /* SwiftPortfolioUITests.swift */; };
-		97638F7E9164115A896C9612 /* Pods_SwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 788C368CB0C10E72322DF38C /* Pods_SwiftPortfolio.framework */; };
+		823C8C95241800EA00E1CC7A /* 2_3_20GWC.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C8C94241800E900E1CC7A /* 2_3_20GWC.png */; };
+		C4E82718DD86FF4AE2E2B553 /* Pods_SwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F492632C917D966142C7193D /* Pods_SwiftPortfolio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		627293A09931FD3829265AC7 /* Pods-SwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
-		788C368CB0C10E72322DF38C /* Pods_SwiftPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8213E17E2416963E00E44469 /* SwiftPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8213E1812416963E00E44469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8213E1832416963E00E44469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		8213E1A32416967000E44469 /* SwiftPortfolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPortfolioUITests.swift; sourceTree = "<group>"; };
 		8213E1A52416967000E44469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		823870A596BED70B1264BFC5 /* Pods-SwiftPortfolio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.release.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.release.xcconfig"; sourceTree = "<group>"; };
+		823C8C94241800E900E1CC7A /* 2_3_20GWC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_3_20GWC.png; sourceTree = "<group>"; };
+		F492632C917D966142C7193D /* Pods_SwiftPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97638F7E9164115A896C9612 /* Pods_SwiftPortfolio.framework in Frameworks */,
+				C4E82718DD86FF4AE2E2B553 /* Pods_SwiftPortfolio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,13 +108,12 @@
 		8213E1802416963E00E44469 /* SwiftPortfolio */ = {
 			isa = PBXGroup;
 			children = (
-				8213E1812416963E00E44469 /* AppDelegate.swift */,
-				8213E1832416963E00E44469 /* SceneDelegate.swift */,
-				8213E1852416963E00E44469 /* ViewController.swift */,
+				823C8C932417F9C000E1CC7A /* ViewController */,
 				8213E1872416963F00E44469 /* Main.storyboard */,
 				8213E18A2416966D00E44469 /* Assets.xcassets */,
 				8213E18C2416966D00E44469 /* LaunchScreen.storyboard */,
 				8213E18F2416966D00E44469 /* Info.plist */,
+				823C8C94241800E900E1CC7A /* 2_3_20GWC.png */,
 			);
 			path = SwiftPortfolio;
 			sourceTree = "<group>";
@@ -135,10 +136,20 @@
 			path = SwiftPortfolioUITests;
 			sourceTree = "<group>";
 		};
+		823C8C932417F9C000E1CC7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8213E1852416963E00E44469 /* ViewController.swift */,
+				8213E1832416963E00E44469 /* SceneDelegate.swift */,
+				8213E1812416963E00E44469 /* AppDelegate.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		9C068E5C930C5527AD84509F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				788C368CB0C10E72322DF38C /* Pods_SwiftPortfolio.framework */,
+				F492632C917D966142C7193D /* Pods_SwiftPortfolio.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,7 +160,6 @@
 				627293A09931FD3829265AC7 /* Pods-SwiftPortfolio.debug.xcconfig */,
 				823870A596BED70B1264BFC5 /* Pods-SwiftPortfolio.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -164,7 +174,6 @@
 				8213E17A2416963E00E44469 /* Sources */,
 				8213E17B2416963E00E44469 /* Frameworks */,
 				8213E17C2416963E00E44469 /* Resources */,
-				67309D20DD7D27AD5BFF55B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +270,7 @@
 			files = (
 				8213E18E2416966D00E44469 /* LaunchScreen.storyboard in Resources */,
 				8213E18B2416966D00E44469 /* Assets.xcassets in Resources */,
+				823C8C95241800EA00E1CC7A /* 2_3_20GWC.png in Resources */,
 				8213E1892416963F00E44469 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,23 +292,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		67309D20DD7D27AD5BFF55B1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CAF2C925C10711A1C70F70B7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
