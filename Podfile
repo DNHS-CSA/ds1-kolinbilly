@@ -5,8 +5,8 @@ target 'SwiftPortfolio' do
   # Comment the next line if you don't want to use dynamic frameworks
     use_frameworks!
   # Pods for Uiportfolio
-#pod 'AWSCore'
-#pod 'AWSDynamoDB'
+pod 'AWSCore'
+pod 'AWSDynamoDB'
 end
 #workspace "SwiftPortfolio"
 
