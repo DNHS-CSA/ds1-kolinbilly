@@ -20,6 +20,7 @@
 		82713CF224194331006D102E /* PythagController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82713CF124194331006D102E /* PythagController.swift */; };
 		82713CF42419463B006D102E /* SquareController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82713CF32419463B006D102E /* SquareController.swift */; };
 		82713CF6241946D1006D102E /* Square.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82713CF5241946D1006D102E /* Square.storyboard */; };
+		82DA1E6E241A98020091D95C /* DistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DA1E6D241A98020091D95C /* DistController.swift */; };
 		C4E82718DD86FF4AE2E2B553 /* Pods_SwiftPortfolio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F492632C917D966142C7193D /* Pods_SwiftPortfolio.framework */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		82713CF124194331006D102E /* PythagController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagController.swift; sourceTree = "<group>"; };
 		82713CF32419463B006D102E /* SquareController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareController.swift; sourceTree = "<group>"; };
 		82713CF5241946D1006D102E /* Square.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Square.storyboard; sourceTree = "<group>"; };
+		82DA1E6D241A98020091D95C /* DistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistController.swift; sourceTree = "<group>"; };
 		F492632C917D966142C7193D /* Pods_SwiftPortfolio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPortfolio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 				8213E1832416963E00E44469 /* SceneDelegate.swift */,
 				8213E1812416963E00E44469 /* AppDelegate.swift */,
 				82713CF32419463B006D102E /* SquareController.swift */,
+				82DA1E6D241A98020091D95C /* DistController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				8213E1862416963E00E44469 /* ViewController.swift in Sources */,
 				8213E1822416963E00E44469 /* AppDelegate.swift in Sources */,
 				82713CF224194331006D102E /* PythagController.swift in Sources */,
+				82DA1E6E241A98020091D95C /* DistController.swift in Sources */,
 				82713CF42419463B006D102E /* SquareController.swift in Sources */,
 				8213E1842416963E00E44469 /* SceneDelegate.swift in Sources */,
 			);
