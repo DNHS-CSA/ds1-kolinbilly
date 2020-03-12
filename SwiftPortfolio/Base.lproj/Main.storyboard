@@ -46,9 +46,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.68239945170000005" blue="0.93713694810000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="21"/>
-                                <state key="normal" title="Calculator">
+                                <state key="normal" title="Square">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VeV-Zm-wUu" kind="show" id="p6E-CB-V9r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="389-Dj-C1p">
                                 <rect key="frame" x="142" y="313" width="107" height="38"/>
@@ -134,6 +137,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1044.9275362318842" y="136.95652173913044"/>
+        </scene>
+        <!--Square-->
+        <scene sceneID="qVN-Cu-Koc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Square" storyboardName="Square" id="VeV-Zm-wUu" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="T9O-Ib-Dv8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aHI-Ti-ujz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1518" y="-39"/>
         </scene>
         <!--Pythag-->
         <scene sceneID="j6R-1N-uWk">

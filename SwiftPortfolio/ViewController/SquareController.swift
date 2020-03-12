@@ -20,12 +20,14 @@ class SquareController: UIViewController {
     // Loads at initialization
     override func viewDidLoad() {
         super.viewDidLoad()
+        let side = ("0.0","0.0","0.0","0.0")
+
         
         // Initialize Outlets
-        side1.text = "0.0"
-        side2.text = "0.0"
-        area.text = "0.0"
-        perimeter.text = "0.0"
+        side1.text = (side.0)
+        side2.text = (side.1)
+        area.text = (side.2)
+        perimeter.text = (side.3)
 
     }
 
@@ -39,7 +41,7 @@ class SquareController: UIViewController {
         let a1 = s1! * s2!
     
     //Perimeter calculation
-        let p1 = (s1! *2) + ( 2 * s2!)
+        let p1 = (s1! * 2) + ( 2 * s2!)
     // Set calculation to screen
         //side3.text = String(s3)
        // print("Pyth  \(side3.text!)")
