@@ -20,7 +20,7 @@ class SquareController: UIViewController {
     // Loads at initialization
     override func viewDidLoad() {
         super.viewDidLoad()
-        let side = ("0.0","0.0","0.0","0.0")
+        let side = ("0.0","0.0","0.0","0.0")//here is a tuple
 
         
         // Initialize Outlets

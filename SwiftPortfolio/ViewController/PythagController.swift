@@ -20,9 +20,8 @@ class PythagController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //outlet values
-        let side = ("0.0","0.0","0.0")
+        let side = ("0.0","0.0","0.0") //here is ab tuple
 
-        
         // Initialize Outlets
         side1.text = (side.0)//leg 1
         side2.text = (side.1)//leg 2

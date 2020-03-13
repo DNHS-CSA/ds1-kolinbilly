@@ -84,7 +84,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="side1" destination="Qsy-05-eFO" id="Diz-3P-2AA"/>
+                        <outlet property="side1" destination="Qsy-05-eFO" id="aud-9w-2dQ"/>
                         <outlet property="side2" destination="PLU-2S-b5B" id="zT9-41-oKF"/>
                         <outlet property="side3" destination="lnN-x9-Esh" id="jPB-9A-utz"/>
                     </connections>

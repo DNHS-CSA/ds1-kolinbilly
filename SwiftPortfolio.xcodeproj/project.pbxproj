@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8212BDC7241BDDF900ABF8FC /* Distance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8212BDC6241BDDF900ABF8FC /* Distance.storyboard */; };
 		8213E1822416963E00E44469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213E1812416963E00E44469 /* AppDelegate.swift */; };
 		8213E1842416963E00E44469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213E1832416963E00E44469 /* SceneDelegate.swift */; };
 		8213E1862416963E00E44469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213E1852416963E00E44469 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		627293A09931FD3829265AC7 /* Pods-SwiftPortfolio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPortfolio.debug.xcconfig"; path = "Target Support Files/Pods-SwiftPortfolio/Pods-SwiftPortfolio.debug.xcconfig"; sourceTree = "<group>"; };
+		8212BDC6241BDDF900ABF8FC /* Distance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Distance.storyboard; sourceTree = "<group>"; };
 		8213E17E2416963E00E44469 /* SwiftPortfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPortfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8213E1812416963E00E44469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8213E1832416963E00E44469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				8213E18C2416966D00E44469 /* LaunchScreen.storyboard */,
 				82713CEF241941E4006D102E /* Pythag.storyboard */,
 				82713CF5241946D1006D102E /* Square.storyboard */,
+				8212BDC6241BDDF900ABF8FC /* Distance.storyboard */,
 				8213E18F2416966D00E44469 /* Info.plist */,
 				823C8C94241800E900E1CC7A /* 2_3_20GWC.png */,
 			);
@@ -152,9 +155,9 @@
 			isa = PBXGroup;
 			children = (
 				8213E1852416963E00E44469 /* ViewController.swift */,
-				82713CF124194331006D102E /* PythagController.swift */,
 				8213E1832416963E00E44469 /* SceneDelegate.swift */,
 				8213E1812416963E00E44469 /* AppDelegate.swift */,
+				82713CF124194331006D102E /* PythagController.swift */,
 				82713CF32419463B006D102E /* SquareController.swift */,
 				82DA1E6D241A98020091D95C /* DistController.swift */,
 			);
@@ -289,6 +292,7 @@
 				82713CF0241941E4006D102E /* Pythag.storyboard in Resources */,
 				8213E18B2416966D00E44469 /* Assets.xcassets in Resources */,
 				823C8C95241800EA00E1CC7A /* 2_3_20GWC.png in Resources */,
+				8212BDC7241BDDF900ABF8FC /* Distance.storyboard in Resources */,
 				8213E1892416963F00E44469 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
